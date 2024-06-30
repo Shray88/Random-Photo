@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 15px;
+}
+
+body{
+    margin: 0;
+    background-color: palevioletred;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.container{
+    text-align: center;
+}
+.container img{
+    width: 150px;
+    height: 200px;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0,0.3);
+    padding: 0;
+    background-color: lightgray;
+    margin: 20px;
+}
+.more{
+    justify-content: center;
+    margin: 20px;
+    background-color: aquamarine;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0,0.3);
+}
+.more:hover{
+    opacity: 0.8;
+    font-weight: bolder;
+}
